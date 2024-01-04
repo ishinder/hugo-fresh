@@ -1,6 +1,9 @@
 /* ==========================================================================
 Testimonials Styles
 ========================================================================== */
+.columns.is-vcentered {
+    justify-content: center;
+}
 
 .testimonial {
     position: relative;
@@ -18,8 +21,8 @@ Testimonials Styles
     }
     img {
         max-width: 100%;
-        height: 80px;
-        width: 80px;
+        height: 100px;
+        width: 100px;
         border-radius: 50%;
         margin-right: 5px;
         display: block;
@@ -51,15 +54,17 @@ Testimonials Styles
     blockquote:before {
         top: 35px;
         left: 20px;
+        visibility: hidden;
     }
     blockquote:after {
         content: "\f10e";
         right: 20px;
         bottom: 35px;
+        visibility: hidden;
     }
     .author {
         margin: 0;
-        height: 80px;
+        height: 100px;
         display: block;
         text-align: left;
         color: $white;
